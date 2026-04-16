@@ -15,6 +15,7 @@ const Frame = ({
     title,
     date
 }: FrameProps) => {
+    console.log('date:', date); // will use date in future
     return (
         <div className="w-full max-w-screen-md">
             <div className={`bg-white dark:bg-gray-900 rounded-xl border-4 border-gray-200 dark:border-gray-700 shadow-sm h-96 md:h-[60vh] lg:h-[70vh] ${className}`}>
